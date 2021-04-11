@@ -1,0 +1,63 @@
+
+
+
+<body>
+<p id="sample"> I am sleeping. </p>
+<p id="sample1"> Stella </p>
+<p id="sample2"> Son </p>
+<p id="sample3"> :) </p>
+
+<p id="addition"> 10 + 4 </p>
+<p id="full_name"> SS </p>
+<p id="stringNum"> ? </p>
+
+
+<button type="button" onclick="sampleFunction()"> click! </button>
+<button type="button" onclick="window.print()"> print! </button>
+
+
+<script>    
+	// window.alert("Wrong Page!")   // this is an alert 
+	var a, b, c 
+	a = 7
+	a = 10 				// a is now 10, not 7
+	b = 4
+	c = a + b 			// 14 
+
+
+// Operations 
+
+	c = a - b 		// 6 
+	c = a * b 		// multiplcation 40 
+	c = a ** b 		// exponent 10000
+	c = a / b 		// division quotient only 2 
+	c = a % b 		// remainder 2 
+
+// Strings
+	var first_name, last_name 
+	first_name = "Stella"
+	last_name = " Son"
+	full_name = first_name + last_name
+
+// Strings with numbers 
+	var num1, num2
+	num1 = "4"
+	num2 = "8"
+	num3 = num1 + num2
+
+	document.getElementById("addition")
+	.innerHTML = c
+
+	document.getElementById("full_name")
+	.innerHTML = full_name
+
+	document.getElementById("stringNum")
+	.innerHTML = num3
+	
+</script>
+
+
+
+
+<script src="main.js"> </script>
+</body>
